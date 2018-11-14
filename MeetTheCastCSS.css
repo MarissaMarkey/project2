@@ -1,0 +1,125 @@
+body {
+	background-color: #BCD6F2; 
+	/*background-image: url(http://www.automazionenews.it/files/2013/02/cloud.jpg);8? */
+	cursor: url('http://www.rw-designer.com/cursor-view/61281.gif'), auto;
+}
+
+h1 {
+	color: black;
+	font-family: Georgia; 
+	font-size: 90px;
+	text-align: center;
+}
+
+.grid {
+  height: 2100px;
+  width: 1550px;
+  display: grid;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  position: relative;
+  left: 200px;
+  background-color:#BCD6F2; 
+  border: 7px dodgerblue outset;
+}
+
+.box {
+  background-color: transparent;
+  color: black;
+}
+
+.a {
+	padding-top: 10px;
+	font-size: 20px;
+	text-align: center;
+	font-family: Georgia;
+	grid-column-start: 1;
+	grid-column-end: 10;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	font-family: Georgia;
+}
+
+.b {
+	grid-column-start: 2;
+	grid-column-end: 5;
+	grid-row-start: 2;
+	text-align: center;
+	font-family: Georgia;
+)
+}
+
+.c {
+	text-align: center;
+	grid-column-start: 7;
+	grid-column-end: 10;
+	grid-row-start: 2;
+	font-family: Georgia;
+}
+
+.d {
+	grid-row-start: 3;
+	grid-column-start: 2;
+	grid-column-end: 5;
+}
+
+.e{
+	grid-row-start: 3;
+	font-family: Georgia;
+	grid-column-start: 7;
+	grid-column-end: 10;
+}
+
+.f {
+	grid-row-start: 4;
+	font-family: Georgia;
+	grid-column-start: 2;
+	grid-column-end: 5;
+	text-align: center;
+}
+
+.g {
+	grid-row-start: 4;
+	grid-column-start: 7;
+	grid-column-end: 10;
+	font-family: Georgia;
+	text-align: center;
+}
+
+.h {
+	grid-row-start: 5;
+	grid-column-start: 2;
+	grid-column-end: 5;
+	text-align: center;
+	font-family: Georgia;
+}
+
+.i {
+	grid-row-start: 5;
+	grid-column-start: 7;
+	grid-column-end: 10;
+	text-align: center;
+	font-family: Georgia;
+}
+
+.j {
+	position: relative;
+	top: 1880px;
+	left: 780px;
+}
+
+.button {
+	background-color: #55A8FF;
+	font-family: Georgia;
+	border: white;
+	font-size: 25px;
+	border-radius: 50px;
+	color: white;
+}
+
+#submit:hover {
+  background: black;
+  color:#55A8FF;
+ 
+}
+

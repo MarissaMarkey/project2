@@ -1,0 +1,93 @@
+body {
+	background-color: #BCD6F2;
+	cursor: url('http://www.rw-designer.com/cursor-view/61281.gif'), auto;
+}
+
+h1 {
+	text-align: center;
+	color: black;
+	font-family: Georgia; 
+	font-size: 90px;
+}
+
+
+.grid {
+  border: none;
+  height: 1500px;
+  width: 1500px;
+  display: grid;
+  grid-row-gap: 10px;
+  grid-column-gap: 15px;
+  position: relative;
+  left: 200px;
+}
+
+.box {
+  background-color: transparent;
+  color: black;
+}
+
+.a {
+  grid-column-start: 1;
+  grid-column-end: span 5;
+  grid-row-start: 1;
+  grid-row-end: span 1;
+  font-size: 20px;
+  font-family: Georgia;
+  text-align: center;
+  height: 300px;
+  padding-top: 50px;
+}
+
+.b {
+  font-size: 20px;
+  font-family: Georgia;
+  text-align: center;
+  position: relative;
+  bottom: 502px;
+  left: 770px;
+  width: 300px;
+  height: 50px;
+}
+.c {
+	grid-column-start: 3;
+	grid-column-end: span 3;
+	width: 300px;
+	position: relative;
+	bottom: 1100px;
+	left: 270px;
+}
+
+p {
+	font-size: 20px;
+	font-family: Georgia;
+	text-align: center;
+	width: 1500px;
+	position: relative;
+	left: 200px;
+	bottom: 1000px;
+}
+
+h2 {
+	position: relative;
+	bottom: 950px;
+	left: 800px;
+}
+
+.button {
+	background-color: #55A8FF;
+	font-family: Georgia;
+	border: white;
+	font-size: 25px;
+	border-radius: 50px;
+	color: white;
+	position: relative;
+	bottom: 950px;
+	left: 920px;
+}
+
+#submit:hover {
+  background: black;
+  color:#55A8FF;
+}
+

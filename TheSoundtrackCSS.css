@@ -1,0 +1,148 @@
+body {
+	background-color: #BCD6F2;
+	cursor: url('http://www.rw-designer.com/cursor-view/61281.gif'), auto;
+}
+
+h1 {
+	text-align: center;
+	color: black;
+	font-family: Georgia; 
+	font-size: 90px;
+}
+
+.grid {
+  height: 1000px;
+  width: 1500px;
+  display: grid;
+  grid-template-columns: 25% 25% 2fr 1fr;
+  grid-template-rows: 200px 200px;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  position: relative;
+  left: 160px;
+}
+
+.box {
+  background-color: transparent;
+  color: black;
+}
+
+.a {
+  grid-column-start: 2;
+  grid-column-end: span 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  text-align: center;
+  font-family: Georgia;
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+.b {
+	grid-column-start: 3;
+  grid-column-end: span 3;
+  grid-row-start: 3;
+  grid-row-end: span 7;
+  padding-top: 230px;
+  text-align: center;
+  font-family: Georgia;
+  font-size: 20px;
+}
+
+.c {
+	grid-column-start: 2;
+  grid-column-end: span 3;
+  grid-row-start: 2;
+  grid-row-end: span 4;
+  font-size: 20px;
+  font-family: Georgia;
+}
+
+.d {
+	grid-column-start: 3;
+  grid-column-end: span 2;
+  grid-row-start: 2;
+  grid-row-end: span 5;
+  font-size: 20px;
+  font-family: Georgia;
+  width: 500px;
+  position: relative;
+  left: 85px;
+  text-align: center;
+  top: 100px;
+}
+
+.e {
+	position: relative;
+	top: 2000px;
+	left: 900px;
+}
+
+h2 {
+	position: relative;
+	bottom: 715px;
+	left: 560px;
+}
+
+h3 {
+	position: relative;
+	bottom: 680px;
+	left: 560px;
+}
+
+h4{
+	position: relative;
+	bottom: 320px;
+	left: 560px;
+}
+
+h5{
+	position: relative;
+	bottom: 960px;
+	left: 560px;
+}
+
+h6{
+	position: relative;
+	bottom: 590px;
+	left: 560px;
+}
+
+.button {
+	background-color: #55A8FF;
+	font-family: Georgia;
+	border: white;
+	font-size: 25px;
+	border-radius: 50px;
+	color: white;
+}
+
+#submit:hover {
+  background: black;
+  color:#55A8FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

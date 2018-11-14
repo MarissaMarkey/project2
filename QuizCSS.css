@@ -1,0 +1,113 @@
+body{
+	background-color: #BCD6F2; 
+	cursor: url('http://www.rw-designer.com/cursor-view/61281.gif'), auto;
+}
+
+h1 {
+	text-align: center;
+	color: black;
+	font-family: Georgia; 
+	font-size: 90px;
+}
+
+h2 {
+	text-align: center;
+	width: 900px;
+	position: relative;
+	left: 530px;
+}
+
+h3 {
+	position: relative;
+	top: 1070px;
+}
+
+h4 {
+	position: relative; 
+	top: 980px;
+	right: 20px;
+}
+
+.grid {
+  height: 1000px;
+  width: 500px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 200px 200px 200px 200px 200px;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  position: relative;
+  left: 700px;
+  
+}
+
+.box {
+  background-color: transparent;
+  color: black;
+  border-radius: 5px;
+  border: 7px dodgerblue outset;
+}
+
+.a {
+	font-family:Georgia;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.b {
+	font-family:Georgia;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.c {
+	font-family:Georgia;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.d {
+	font-family:Georgia;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.e {
+	font-family:Georgia;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.button {
+	background-color: #55A8FF;
+	font-family: Georgia;
+	border: white;
+	font-size: 25px;
+	border-radius: 50px;
+	color: white;
+	position: relative;
+	bottom: 950px;
+	left: 920px;
+}
+
+.button2 {
+	background-color: #55A8FF;
+	font-family: Georgia;
+	border: white;
+	font-size: 25px;
+	border-radius: 50px;
+	color: white;
+	position: relative;
+	bottom: 950px;
+	left: 920px;
+}
+
+#submit:hover {
+  background: black;
+  color:#55A8FF;
+}
